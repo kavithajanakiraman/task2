@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+		}
+        .container{
+            width: 1170px;
+            background-color: #fff;
+            padding: 40px 25px;
+            margin: 0 auto;
+            box-shadow: 0 0 3px whitesmoke;
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+        }
+        .user-pic img{
+            width: 86px;
+            height: 80px;
+            vertical-align: middle;
+        }
+        .navigations{
+            padding: 0 0 0 60px;
+            text-transform: capitalize;
+        }
+        .navigations h1{
+            padding-top: 10px;
+            border-bottom: 1px solid black;
+        }
+        .nav-menus{
+            display: flex;
+            list-style-type: none;
+            flex-direction: row;
+            text-decoration: none;
+
+        }
+        .nav-links{
+            display: block;
+            text-decoration: none;
+            padding: 10px 40px 10px 0;
+            color: black;
+            font-size: 20px;
+        }
+        .active-link{
+            color: black;
+            
+        }
+        .nav-links .active-link{
+            color: #000;
+           
+
+        }
+        .active-link1{
+            color: lightgray;
+           
+        }
+        .nav-links .active-link1{
+            color: lightgray;
+            
+        }
+
+        .nav-links .nav-menus:hover{
+            color: darkred;
+            background-color: black;
+        }
+        .container1{
+            background-color: black;
+            text-align: center;
+            width: 1120px;
+            padding: 40px 25px;
+            margin: 0 auto;
+            font-family:sans-serif;
+            height: 196px;
+         /*   box-shadow: 0 0 3px whitesmoke;*/
+            border-bottom: 1px solid black;
+        }
+        .container1 h4{
+            color: gray;
+        }
+        .container1 h1{
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .container1 .download{
+            background-color: black;
+            color: white;
+            margin-top: 5px;
+            padding: 5px 20px;
+
+        }
+        .skill{
+            width: 1170px;
+            padding: 10px 20px;
+            margin: 20px auto;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+              box-shadow: 0 0 3px whitesmoke;
+        }
+        .skill img{
+            width: 50px;
+            height: 40px;
+        }
+        .skill h2{
+            padding: 10px;
+        }
+        .skill p{
+            display: flex;
+        }
+        .nav-links1{
+            display: block;
+            text-decoration: none;
+            padding: 10px 40px 10px 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #000;
+            font-size: 16px;
+        }
+        .nav-menus1{
+            display: flex;
+            list-style-type: none;
+            flex-direction: row;
+            text-decoration: none;
+
+        }
+        .education{
+            width: 1170px;
+            padding: 10px 20px;
+            margin: 20px auto;
+            border-bottom: 1px solid black;
+              box-shadow: 0 0 3px whitesmoke;
+
+        }
+        .education p{
+            display: flex;
+            padding-right: 20px;
+        }
+        .education h2{
+            padding: 10px;
+        }
+        .education img{
+            width: 50px;
+            height: 36px;
+        }
+        .flex-container1{
+            display: flex;
+            margin-top: 30px;
+            margin-left: 10px;
+            padding-left: 15px;
+           border-left: 3px solid gray;
+            /*flex-direction: column;*/
+        }
+    
+        .flex-container1 .college p{
+            width: auto;
+            height: auto;
+            background-color: white;
+            
+            display: flex;
+        }
+        .flex-container1 .colgpercent p{
+            background-color:lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            margin-left: 500px;
+
+        }
+
+        .flex-container1 .hsc p{
+            width: auto;
+            height: auto;
+            background-color: white;
+            display: flex;
+        }
+        .flex-container1 .hscpercent p{
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            margin-left: 506px;
+
+        }
+
+        .flex-container1 .sslc p{
+            width: auto;
+            height: auto;
+            background-color: white;
+            display: flex;
+        }
+        .flex-container1 .sslcpercent p{
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            margin-left: 506px;
+
+        }
+        .parasmall{
+            font-size: 14px;
+        }
+        .parabig{
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .projects{
+            width: 1170px;
+            padding: 10px 20px;
+            margin: 20px auto;
+            border-bottom: 1px solid black;
+              box-shadow: 0 0 3px whitesmoke;
+        }
+        .projects img{
+            width: 50px;
+            height: 40px;
+        }
+        .projects h2{
+            padding: 10px;
+
+        }
+        .projects p{
+            display: flex;
+            padding-left: 10px;
+        }
+        .flex-container2{
+            display: flex;
+            flex-direction: column;
+            
+
+        }
+        .flex-container2 .project1{
+            margin-top: 30px;
+             border-left: 3px solid gray;
+        }
+        .contact{
+            width: 1170px;
+            padding: 10px 20px;
+            margin: 20px auto;
+              box-shadow: 0 0 3px whitesmoke;
+        }
+        .contact img{
+            width: 30px;
+            height: 30px;
+        }
+        .contact p{
+            margin-top: 10px;
+
+        }
+        .nav-links2{
+            display: block;
+            text-decoration: none;
+            padding: 10px 40px 10px 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #000;
+            font-size: 16px;
+        }
+        .nav-menus2{
+            display: flex;
+            list-style-type: none;
+            flex-direction: row;
+            text-decoration: none;
+
+        }
