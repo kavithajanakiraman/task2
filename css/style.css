@@ -3,16 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 		}
+        body{
+            background-color: gray;
+            font-family: 'Roboto', sans-serif;
+
+        }
         .container{
             width: 1170px;
             background-color: #fff;
-            padding: 40px 25px;
-            margin: 0 auto;
+            padding: 0px 20px;
+            margin: 10 auto;
             box-shadow: 0 0 3px whitesmoke;
         }
         .flex-container{
             display: flex;
             flex-direction: row;
+            font-family: 'Roboto', sans-serif;
+
         }
         .user-pic img{
             width: 86px;
@@ -25,7 +32,6 @@
         }
         .navigations h1{
             padding-top: 10px;
-            border-bottom: 1px solid black;
         }
         .nav-menus{
             display: flex;
@@ -66,16 +72,18 @@
         .container1{
             background-color: black;
             text-align: center;
-            width: 1120px;
+           width: 1170px;
             padding: 40px 25px;
             margin: 0 auto;
-            font-family:sans-serif;
-            height: 196px;
+            font-family: 'Roboto', sans-serif;
+           height: 210px;
          /*   box-shadow: 0 0 3px whitesmoke;*/
-            border-bottom: 1px solid black;
+            /*border-bottom: 1px solid black;*/
         }
         .container1 h4{
             color: gray;
+            margin-top: 10px;
+            margin-bottom: 15px;
         }
         .container1 h1{
             color: white;
@@ -84,18 +92,19 @@
         }
         .container1 .download{
             background-color: black;
+            border: 1px solid white;
             color: white;
-            margin-top: 5px;
+            margin-top: 10px;
             padding: 5px 20px;
+            text-decoration: none;
 
         }
         .skill{
             width: 1170px;
             padding: 10px 20px;
-            margin: 20px auto;
-            border-top: 1px solid black;
+            margin: 10px auto;
             border-bottom: 1px solid black;
-              box-shadow: 0 0 3px whitesmoke;
+              /*box-shadow: 0 0 3px whitesmoke;*/
         }
         .skill img{
             width: 50px;
@@ -106,6 +115,8 @@
         }
         .skill p{
             display: flex;
+            font-family: 'Roboto', sans-serif;
+
         }
         .nav-links1{
             display: block;
@@ -126,14 +137,16 @@
         .education{
             width: 1170px;
             padding: 10px 20px;
-            margin: 20px auto;
+            margin: 10px auto;
             border-bottom: 1px solid black;
-              box-shadow: 0 0 3px whitesmoke;
+           /*   box-shadow: 0 0 3px whitesmoke;*/
 
         }
         .education p{
             display: flex;
-            padding-right: 20px;
+            font-family: 'Roboto', sans-serif;
+
+           /* padding-right: 20px;*/
         }
         .education h2{
             padding: 10px;
@@ -144,10 +157,13 @@
         }
         .flex-container1{
             display: flex;
-            margin-top: 30px;
+            margin-top: 15px;
             margin-left: 10px;
             padding-left: 15px;
            border-left: 3px solid gray;
+           display: flex;
+           font-family: 'Roboto', sans-serif;
+
             /*flex-direction: column;*/
         }
     
@@ -155,17 +171,31 @@
             width: auto;
             height: auto;
             background-color: white;
-            
-            display: flex;
+        }
+        .college{
+            width: 83.3%;
+        }
+        .colgpercent{
+            width: 16.66%;
+        }
+        .hsc{
+            width: 83.33%;
+        }
+        .hscpercent{
+            width: 16.66%;
+        }
+        .sslc{
+            width: 83.3%;
+        }
+        .sslcpercent{
+            width: 16.66%;
         }
         .flex-container1 .colgpercent p{
             background-color:lightgray;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             width: 100px;
             height: 100px;
-            margin-left: 500px;
+           justify-content: space-around;
+           align-items: center;
 
         }
 
@@ -173,34 +203,26 @@
             width: auto;
             height: auto;
             background-color: white;
-            display: flex;
         }
         .flex-container1 .hscpercent p{
             background-color: lightgray;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            justify-content: space-around;
+           align-items: center;
             width: 100px;
             height: 100px;
-            margin-left: 506px;
-
         }
 
         .flex-container1 .sslc p{
             width: auto;
             height: auto;
             background-color: white;
-            display: flex;
         }
         .flex-container1 .sslcpercent p{
             background-color: lightgray;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            justify-content: space-around;
+           align-items: center;
             width: 100px;
             height: 100px;
-            margin-left: 506px;
-
         }
         .parasmall{
             font-size: 14px;
@@ -212,25 +234,29 @@
         .projects{
             width: 1170px;
             padding: 10px 20px;
-            margin: 20px auto;
+            margin: 10px auto;
             border-bottom: 1px solid black;
-              box-shadow: 0 0 3px whitesmoke;
+             /* box-shadow: 0 0 3px whitesmoke;*/
         }
         .projects img{
             width: 50px;
             height: 40px;
         }
         .projects h2{
-            padding: 10px;
+            padding: 5px;
 
         }
         .projects p{
             display: flex;
             padding-left: 10px;
+            font-family: 'Roboto', sans-serif;
+
         }
         .flex-container2{
             display: flex;
-            flex-direction: column;
+            font-family: 'Roboto', sans-serif;
+
+           /* flex-direction: column;*/
             
 
         }
@@ -241,22 +267,24 @@
         .contact{
             width: 1170px;
             padding: 10px 20px;
-            margin: 20px auto;
-              box-shadow: 0 0 3px whitesmoke;
+            margin: 10px auto;
+             /* box-shadow: 0 0 3px whitesmoke;*/
         }
         .contact img{
             width: 30px;
             height: 30px;
         }
         .contact p{
-            margin-top: 10px;
+            margin-top: 5px;
+            font-family: 'Roboto', sans-serif;
+
 
         }
         .nav-links2{
             display: block;
             text-decoration: none;
             padding: 10px 40px 10px 0;
-            margin-top: 20px;
+            margin-top: 10px;
             margin-bottom: 20px;
             color: #000;
             font-size: 16px;
@@ -267,4 +295,8 @@
             flex-direction: row;
             text-decoration: none;
 
+        }
+        .bold{
+            font-weight: bolder;
+            font-size: 20px;
         }
